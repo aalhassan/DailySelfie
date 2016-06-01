@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DailySelfie</string>
+
+    <string name="set_reminder_2min">Set Reminder 2 MIN</string>
+    <string name="set_reminder_daily">Set Reminder Daily</string>
+    <string name="cancel_reminder">Cancel Reminder</string>
+    <string name="action_settings">Settings</string>
+    <string name="takePic">Take Picture</string>
+</resources>

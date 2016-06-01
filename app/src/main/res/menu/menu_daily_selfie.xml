@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".DailySelfie">
+      <item android:id="@+id/takePic"
+            android:title="@string/takePic"
+            android:orderInCategory="100"
+            android:icon="@drawable/camera_icon"
+            app:showAsAction="always"/>
+
+      <item android:id="@+id/set_reminder_2min"
+    android:title="@string/set_reminder_2min"
+    android:orderInCategory="101"
+    app:showAsAction="collapseActionView"/>
+
+    <item android:id="@+id/set_reminder_daily"
+        android:title="@string/set_reminder_daily"
+        android:orderInCategory="102"
+        app:showAsAction="collapseActionView"/>
+
+      <item android:id="@+id/cancel_reminder"
+          android:title="@string/cancel_reminder"
+          android:orderInCategory="103"
+          app:showAsAction="collapseActionView"/>
+</menu>
